@@ -1,0 +1,15 @@
+header:
+  seq: 1227
+  stamp:
+    secs: 1520768343
+    nsecs: 939778815
+  frame_id: ''
+twist:
+  linear:
+    x: 6.86158827991
+    y: 0.0
+    z: 0.0
+  angular:
+    x: 0.0
+    y: 0.0
+    z: 0.728694260866
