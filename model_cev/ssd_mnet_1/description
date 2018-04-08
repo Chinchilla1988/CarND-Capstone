@@ -1,0 +1,22 @@
+files x contain the last checkpoint
+concatenate with cat x* > train.zip
+then unzip
+
+I run the training script with :
+
+run with:
+python train.py --logtostderr --train_dir=./models/train --pipeline_config_path=ssd_mobilenet_2.config
+
+in the training folder:
+train.py
+model_config (ssd_mobilenet_2.config)
+
+folders inside of the training folder:
+data:
+	(all those with the notebook, creates a label file as well)
+	-train_data
+	-test_data
+	-label_list (traffic_light_label_map.pbtxt)
+models:
+	train (will be filled during training)
+	- 3 checkpoints
